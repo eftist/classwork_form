@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>person</title>
+<style>
+	.table
+	{	
+		border: 1px solid black;
+		
+	}
+</style>
+
+</head>
+<body>
+<table border="1" width="70%">
+	 <caption>Person Profile</caption>
+	<tr>
+		<td>Name</td>
+		<td><input type="text"></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Email</td>
+		<td><input type="text"></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Gender</td>
+		<td>
+			<input type="radio" name="Gender" value="Male">Male
+			<input type="radio" name="Gender" value="Female">Female
+			<input type="radio" name="Gender" value="Other">Other
+		</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Date of Birth</td>
+		<td>
+			<input type="number" name="" style="width: 35px;">/
+			<input type="number" name="" style="width: 35px;">/
+			<input type="number" name="" style="width: 45px;"><i>(dd/mm/yy)</i>
+		</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Blood Group</td>
+		<td>
+			<select>
+				  <option value="A+">A+<option>
+				  <option value="B+">B+<option>
+				  <option value="O+">O+<option>
+	`		</select>
+  		</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Degree</td>
+		<td>
+			<input type="checkbox">SSC<br>
+			<input type="checkbox">HSC<br>
+			<input type="checkbox">BSc.<br>
+			<input type="checkbox">MSc.<br>
+		</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Photo</td>
+		<td colspan="2">  <input type="file" accept="image/*"></td>
+		
+	</tr>
+	<tr>
+
+		<td colspan="3" align="right">
+			<button type="submit" value="Submit">Submit</button>
+			<button type="Reset" value="Reset">Reset</button>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
